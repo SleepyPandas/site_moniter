@@ -7,7 +7,7 @@ argument = str(sys.argv[1:])
 urlToCapture = argument[2:len(argument)-2]
 
 def capturePage(url):
-	response = urllib2.urlopen(url)
+	response = urllib2.urlopen("Enter URL Here") #I didn't realize this was where the url was inputted for a long time
 	webContent = response.read()
 	return webContent
 
